@@ -15,5 +15,11 @@ public class quinta {
         System.out.print("Dias: ");
         dias = ler.nextInt();
 
+        int resultado;
+
+        resultado = (anos * 365) + (meses * 30) + dias;
+
+      System.out.printf("Sua idade em dias é: %d", resultado);
+      
     }
 }

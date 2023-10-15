@@ -18,11 +18,10 @@ public class oitava {
 
         double diferenca = arrecadacaocomprom - arrecadacaosemprom;
 
-        System.out.println("(a) O valor da diária no período da promoção é: " + diariaprom);
-        System.out.println("(b) O valor médio arrecadado sem a promoção, durante um mês é: " + arrecadacaosemprom);
-        System.out.println("(c) O valor médio arrecadado com a promoção, durante um mês é: " + arrecadacaocomprom);
-        System.out.println("(d) O lucro ou prejuízo mensal com a promoção é: " + diferenca);
+        System.out.println("O valor da diária no período da promoção é: " + diariaprom);
+        System.out.println("O valor médio arrecadado sem a promoção, durante um mês é: " + arrecadacaosemprom);
+        System.out.println("O valor médio arrecadado com a promoção, durante um mês é: " + arrecadacaocomprom);
+        System.out.println("O lucro ou prejuízo mensal com a promoção é: " + diferenca);
 
-        scanner.close();
     }
 }
